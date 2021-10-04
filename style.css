@@ -23,8 +23,8 @@ body{
 #loginContainer{
     width: 250px;
     margin: auto;
-    -ms-transform: translateY(50%);
-    transform: translateY(50%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
     animation-name: fadeIn;
     animation-duration: 1s;
 }
@@ -63,16 +63,5 @@ label{
     }
     to{
         opacity: 100%;
-    }
-}
-
-@keyframes outAndIn{
-    from{
-        -ms-transform: translateY(1000%);
-        transform: translateY(1000%);
-    }
-    to{
-        -ms-transform: translateY(30%);
-        transform: translateY(30%);
     }
 }
