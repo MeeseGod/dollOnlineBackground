@@ -34,7 +34,7 @@ body{
 
 #loginTitleBar{
     height: 20px;
-    background: linear-gradient(90deg,#ff93d9,#a1069c);
+    background: linear-gradient(90deg,#FEAC9F, #FF93D9);
 }
 
 #loginFormContainer{
