@@ -1,0 +1,18 @@
+body{
+    background: url("images/trippy2.gif")no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#pageTitle{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    text-shadow: 4px 4px rgba(0, 0, 0, 1);
+}
