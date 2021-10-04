@@ -4,17 +4,18 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin: 0;
 }
 
 #pageTitle{
     font-family: 'Share Tech Mono', monospace;
     font-size: 60px;
-    color: rgb(252, 204, 248);
+    color: rgb(135, 226, 231);
     display: flex;
     margin: auto;
     align-content: center;
     justify-content: center;
-    text-shadow: 4px 4px rgb(0, 0, 0);
+    text-shadow: 4px 4px rgb(255, 155, 155);
     animation-name: fadeIn;
     animation-duration: 2s;
     -ms-transform: translateY(150%);
@@ -29,12 +30,12 @@ body{
     -ms-transform: translateY(100%);
     transform: translateY(100%);
     animation-name: fadeIn;
-    animation-duration: 1s;
+    animation-duration: 3s;
 }
 
 #loginTitleBar{
     height: 20px;
-    background: linear-gradient(90deg,#FEAC9F, #FF93D9);
+    background: linear-gradient(90deg,#9fc0fe, #ed94b5);
 }
 
 #loginFormContainer{
@@ -51,7 +52,12 @@ body{
 
 #loginButton{
     margin:auto;
-    background-color: #fbb5db;
+    background-color: #d3c9f5;
+    box-shadow: inset -1px -1px #fdb2b2, inset 1px 1px #fff, inset -2px -2px #b1b1b1, inset 2px 2px #dfd3d3;
+}
+
+.window{
+    box-shadow: inset -1px -1px #d5869d, inset 1px 1px #dfdfdf, inset -2px -2px #ffb5b5, inset 2px 2px #fff;
 }
 
 label{
@@ -60,6 +66,28 @@ label{
 
 .accountInput{
     margin-bottom: 10px;
+}
+
+input[type=text]{
+    box-shadow: inset -1px -1px #ffc5fc, inset 1px 1px #a7679f, inset -2px -2px #e5d7d7, inset 2px 2px #aeceff;
+}
+
+#desktopBar{
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+
+#startButton{
+    height: 80%;
+    transform: translateY(10%);
+    font-weight: bold;
+    width: 100px;
 }
 
 @keyframes fadeIn {
