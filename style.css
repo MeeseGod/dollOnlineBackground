@@ -6,6 +6,7 @@ body{
     background-size: cover;
 }
 
+
 #pageTitle{
     font-family: 'Share Tech Mono', monospace;
     font-size: 60px;
@@ -19,6 +20,43 @@ body{
     animation-duration: 2s;
 }
 
+#loginContainer{
+    width: 250px;
+    margin: auto;
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+#loginTitleBar{
+    height: 20px;
+}
+
+#loginFormContainer{
+    display: flex;
+}
+
+#loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#loginButton{
+    margin:auto;
+}
+
+label{
+    margin-top: 5px;
+}
+
+.accountInput{
+    margin-bottom: 10px;
+}
+
 @keyframes fadeIn {
     from{
         opacity: 0;
@@ -26,5 +64,15 @@ body{
     to{
         opacity: 100%;
     }
+}
 
+@keyframes outAndIn{
+    from{
+        -ms-transform: translateY(1000%);
+        transform: translateY(1000%);
+    }
+    to{
+        -ms-transform: translateY(30%);
+        transform: translateY(30%);
+    }
 }

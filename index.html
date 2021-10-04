@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
     </style>
 </head>
 <body>
-<h1 id="pageTitle">Doll World</h1>
-<div id="filter"></div>
+    <div id="content">
+        <h1 id="pageTitle">DOLL WORLD</h1>
+            <div id="loginContainer" class="window">
+                <div id="loginTitleBar" class="title-bar">
+                    <p id="loginBarText" class="title-bar-text">Welcome to Doll World!</p>
+                </div>
+                <div id="loginFormContainer">
+                    <form id="loginForm">
+                        <label for="usernameInput">Username: </label>
+                        <input type="text" id="usernameInput" class="accountInput">
+
+                        <label for="passwordInput">Password: </label>
+                        <input type="text" id="passwordInput" class="accountInput">
+
+                        <button id="loginButton">Login</button>
+                    </form>
+                </div>
+            </div>
+    </div>
 </body>
 </html>
